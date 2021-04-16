@@ -1,0 +1,73 @@
+body {
+  font-family: "Work Sans", sans-serif;
+}
+.about-me {
+  font-size: 18px;
+  font-weight: 300;
+  color: rgb(92, 92, 92);
+  margin-bottom: 20px;
+}
+.avatar {
+  width: 210px;
+  height: 210px;
+  margin-bottom: 40px;
+  border-radius: 50%;
+  /*object-fit: cover;*/ /* incase non square pic*/
+  box-shadow: 72px 22px 0px 0px gray;
+}
+.container {
+  background-image: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url("https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom right;
+  min-height: 100vh;
+  padding: 128px;
+}
+
+.job {
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.name {
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.contact {
+  margin-bottom: 48px;
+}
+.contact-icon {
+  margin-right: 12px;
+  width: 16px;
+}
+.contact-item {
+  margin-bottom: 4px;
+}
+.contents {
+  max-width: 500px;
+}
+.button {
+  background-color: black;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 48px;
+  }
+}
+
+@media screen and (max-width: 411px) {
+  .name {
+    font-size: 0.95em;
+  }
+}
